@@ -1,0 +1,230 @@
+.logo{
+    width: 300px;
+    transform: translate(50px, -140px);
+}
+.barra-de-nav{
+    background-color: #fbbc02;
+    color: #fbbc02;
+    margin: -12px;
+    border: solid 60px;
+
+}
+p.op{
+    transform: translate(1025px, -280px);
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+
+
+.barra{
+    transform: translate(470px, -200px);
+    background-color: white;
+    font-size: 27px;
+    margin-right: 700px;
+    border: solid white;
+    border-width: 10px;
+    font-family: 'Roboto', sans-serif;
+    transition-duration: .6s;
+}
+.bx-search-alt-2{
+    color: rgb(158, 158, 158);
+    font-size: 40px;
+    transform: translate(-290px, -190px);
+    
+    
+}
+
+
+.barra:hover{
+    font-size: 30px;
+}
+
+.bxs-user-voice{
+    transform: translate(980px, -330px);
+    font-size: 40px;
+    transition-duration: .6s;
+    color: black;
+    
+    
+}
+
+.bxs-user-voice:hover{
+    font-size: 50px;
+}
+
+.bxs-user-rectangle{
+    transform: translate(934px, -250px);
+    font-size: 30px;
+    color: black;
+    transition-duration: .6s;
+
+}
+
+.bxs-user-rectangle:hover{
+   font-size: 40px;
+}
+
+
+.sesion{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    transform: translate(1020px, -295px);
+    
+}
+
+h2{
+    transform: translateY(-240px);
+    font-family: 'Roboto', sans-serif; 
+    font-size: 40px;
+
+}
+
+button{
+    background-color: deepskyblue;
+    border: none;
+    color: white;
+    font-size: 30px;
+    transition-duration: .3s;
+}
+
+button:hover{
+    background-color: chartreuse;
+    font-size: 32px;
+}
+
+h4{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 30px;
+
+}
+
+h3{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif
+}
+
+.ig{
+    color: black;
+    font-size: 50px;
+    transition-duration: .1s;
+}
+
+.ig:hover{
+    font-size: 55px;
+}
+.fb{
+    color: black;
+    font-size: 50px;
+    transition-duration: .1s;
+}
+
+.fb:hover{
+    font-size: 55px;
+}
+.tw{
+    color: black;
+    font-size: 50px;
+    transition-duration: .1s;
+}
+
+.tw:hover{
+    font-size: 55px;
+}
+
+.bxl-play-store{
+    transform: translate(300px, -340px);
+    color: black;
+    font-size: 40px;
+    transition-duration: .6s;
+}
+
+p.app{
+    transform: translate(150px, -395px);
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.bxl-play-store:hover{
+    font-size: 50px;
+}
+
+.padre{
+    display: flex;
+    
+    justify-content: space-between;    
+    
+}
+
+.b1, .b2, .b3{
+    transform: translateX(100px);
+}
+
+.b1{
+    transform: translateX(130px);
+}
+
+.b3{
+    transform: translate(30px);
+}
+
+.madre{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec{
+    transform: translateY(400px);
+}
+
+footer{
+    transform: translateY(600px);
+}
+
+.img{
+    transform: translateY(-200px);
+}
+
+
+button.bt{
+    display: flex;
+    transform: translateX(120px);
+
+    justify-content: space-between;
+}
+
+.car{
+    transform: translateY(-390px);
+}
+
+.container{
+    background-color: #fbbc02;
+    width: 100%;
+    height: 100%;
+}
+
+.bt1:hover{
+    background-color: #fbbc02;
+}
+
+.contenedor{
+    display: flexbox;
+    max-width: 1024px;
+    min-width: 800px;
+}
+@media screen and (max-width: 1280px){
+    
+}
+@media screen and (min-width: 640px) and (max-width: 1280px){
+    h2{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .car{
+        display: none;
+    }
+
+
+}

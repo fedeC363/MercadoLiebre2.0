@@ -1,0 +1,27 @@
+body{
+    background-color: #fbbc02;
+}
+
+form{
+    display: fixed;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+button{
+    background-color: blueviolet;
+    border: none;
+    font-size: 20px;
+    transition-duration: .6s;
+}
+
+div{
+    transform: translate(500px, 200px);
+}
+
+button:hover{
+    background-color: rgb(162, 95, 224);
+    font-size: 25px;
+}
+
